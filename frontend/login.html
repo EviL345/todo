@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма входа и регистрации</title>
+</head>
+<body>
+<h1>Войдите или зарегестрируйтесь</h1>
+<form>
+    <label for="login">Логин:</label>
+    <input type="text" id="login" name="login" required>
+    <br>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <button type="submit" formmethod="post" formaction="/login" value="login">Войти</button>
+    <button type="submit" formmethod="post" formaction="/register" value="register">Зарегистрироваться</button>
+</form>
+</body>
+</html>
